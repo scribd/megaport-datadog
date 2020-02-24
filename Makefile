@@ -2,4 +2,9 @@
 
 build:
 	pip install --target ./package -r requirements.txt
-	zip -r9 function.zip package lambda_function.py
+	cp lambda_function.py ./package
+	cd package; zip -r9 function.zip .; cd ..
+	mv package/function.zip .
+
+cleanup:
+	rm -rf package/ function.zip
