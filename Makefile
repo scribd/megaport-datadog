@@ -8,3 +8,6 @@ build:
 
 cleanup:
 	rm -rf package/ function.zip
+
+install:
+	pip install -r requirements.txt
