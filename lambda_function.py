@@ -3,7 +3,7 @@
 ## CURRENTLY ONLY SUPPORTS MCR2
 ## For use with AWS Lambda
 
-# Taylor McClure
+# Scribd, Inc.
 # This code is licensed under MIT license (see LICENSE.txt for details)
 
 from datadog import initialize, api
