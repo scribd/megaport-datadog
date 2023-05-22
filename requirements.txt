@@ -4,5 +4,5 @@ Click==7.0
 datadog==0.34.1
 decorator==4.4.1
 idna==2.9
-requests==2.23.0
+requests==2.31.0
 urllib3==1.25.8
